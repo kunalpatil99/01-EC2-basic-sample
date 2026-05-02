@@ -1,14 +1,15 @@
 variable "ami" {
   description = "Os"
-  default     = "ami-0d176f79571d18a8f"
+  default     = "ami-02eb0c2388ee999f9"
 }
 
 variable "instance_type" {
   description = "vm"
-  default     = "t2.micro"
+  default     = "t2.medium"
 }
 
 variable "key_name" {
   description = "key"
   default     = "Priya-k8s"
 }
+
